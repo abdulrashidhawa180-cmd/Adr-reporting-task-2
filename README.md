@@ -1,55 +1,56 @@
+# ADR Reporting & Documentation: Task 2
 
-Adverse Drug Reaction (ADR) Report
-1. Reporter Information
+Structured adverse drug reaction (ADR) report based on the given case scenario.
+
+## 1. Patient Information
 | Field | Entry |
-|---|---|
-| Reporter Name | Abdul Rashid Hawa |
-| Designation | Doctor of Pharmacy (PharmD) |
-| Contact | abdulrashidhawa180@gmail.com |
-| Healthcare Institution | Sunyani Teaching Hospital |
-2. Patient Information
-| Field | Entry |
-|---|---|
-| Patient Identifier | Withheld for confidentiality |
+|-------|-------|
+| Patient identifier | Withheld for confidentiality |
 | Age | 45 years |
 | Sex | Female |
 | Weight | Not provided |
-3. Suspected & Concomitant Medicines
+
+## 2. Suspected Medicine
 | Field | Entry |
-|---|---|
-| Suspected Medicine | Amoxicillin |
-| Dose / Frequency | Not stated in scenario |
-| Route | Oral (assumed) |
-| Start Date | Day -5 (5 days prior to report) |
-| Concomitant Medicine | Paracetamol (taken as needed / PRN) |
-4. Adverse Reaction Details & Timeline
+|-------|-------|
+| Medicine name | Amoxicillin |
+| Dose | Not stated in the scenario |
+| Route | Oral (assumed, not stated in the scenario) |
+| Start date | Day -5 (5 days before the report) |
+| Concomitant medicine | Paracetamol, taken as needed |
+
+## 3. Adverse Reaction
 | Field | Entry |
-|---|---|
-| Reaction / Events | Rash, itching (pruritus), nausea, and dizziness |
-| Suspected Reaction Type | Hypersensitivity reaction to amoxicillin (rash with urticaria-type itching) |
-| Date of Onset | Day -2 (3 days post-initiation of amoxicillin) |
-| Current Status / Outcome | Not recovered / Ongoing (persistent at Day 0) |
-| Seriousness | Non-serious (based on available data).
-• Note: Reassess immediately if facial/lip swelling, dyspnea, mucosal lesions, blistering, fever, or hypotension occurs. |
-5. Causality & Evaluation
- * Timeline Summary:
-   * Day -5: Amoxicillin therapy initiated.
-   * Day -2: Onset of symptoms (3-day latency).
-   * Day 0: Symptoms ongoing.
- * Causality Scores:
-   * Naranjo Algorithm: Score 3 (Possible)
-   * WHO-UMC Scale: Category Possible
-   * Upgrade Potential: Both scales would upgrade to Probable/Likely upon positive dechallenge (symptom resolution after stopping amoxicillin) assuming no alternative cause is identified.
- * Dechallenge / Rechallenge Status:
-   * Dechallenge: Outcome pending discontinuation.
-   * Rechallenge: Not performed and strictly contraindicated.
- * Differential Diagnoses / Other Causes:
-   * Viral exanthem, clinical manifestations of the underlying infection, or unrecorded foods/supplements/medications.
-   * Paracetamol: Highly unlikely cause due to PRN administration and low baseline incidence of cutaneous reactions.
-6. Action Taken & Management Plan
- * Severity & Vital Signs Assessment: Check airway, screen for angioedema, mucosal involvement, blistering, or fever, and take baseline vital signs.
- * Drug Discontinuation & Substitution: Cease amoxicillin immediately; switch to a non-beta-lactam antibiotic if antimicrobial therapy remains indicated.
- * Symptomatic Management: Administer antihistamines for pruritus and observe for clinical recovery.
- * Medical Record Flagging: Formally document a suspected penicillin/beta-lactam allergy in the patient’s medical chart.
- * Regulatory Submission: Submit this completed ADR report form to the Ghana Food and Drugs Authority (FDA).
+|-------|-------|
+| Reaction / event | Rash, itching, nausea, and dizziness |
+| Date of onset | Day -2 (about 3 days after starting amoxicillin) |
+| Date of recovery | Not yet recovered; symptoms persist at Day 0 |
+| Outcome | Not recovered / ongoing |
+| Seriousness | Non-serious, based on the information available. This should be reassessed if swelling of the lips or face, breathing difficulty, blistering, mucosal involvement, fever, or low blood pressure is found. |
+
+## 4. Reporter Information
+| Field | Entry |
+|-------|-------|
+| Name | Hawa Abdul Rashid |
+| Designation | Doctor of Pharmacy (PharmD) |
+| Contact | [abdulrashidhawa180@gmail] |
+| Healthcare institution | [sunyani teaching hospital ] |
+
+## 5. Additional Information
+**Suspected reaction:** Hypersensitivity reaction to amoxicillin (rash with urticaria-type itching).
+
+**Timeline:** Day -5 amoxicillin started, Day -2 symptoms began, Day 0 symptoms persist.
+
+**Causality assessment:** Naranjo score is 3 (Possible). WHO-UMC category is Possible. Both would upgrade to Probable if symptoms improve after stopping amoxicillin (positive dechallenge) and no other cause is found.
+
+**Dechallenge / rechallenge:** Dechallenge result not yet known. Rechallenge not done and not advised.
+
+**Other possible causes:** Viral exanthem, the underlying infection being treated, and other new medicines, foods, or supplements. Paracetamol is an unlikely cause, since it is taken only as needed and rash from it is uncommon.
+
+**Action taken / recommended:**
+1. Assess severity (airway, angioedema, blistering, mucosal involvement, fever) and check vital signs.
+2. Discontinue amoxicillin and use a non-beta-lactam alternative if an antibiotic is still needed.
+3. Give symptomatic treatment (such as an antihistamine) and monitor for improvement.
+4. Record a suspected penicillin allergy in the patient's chart.
+5. Submit the report to the Ghana FDA through the ADR reporting form.
    
